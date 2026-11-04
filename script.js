@@ -67,7 +67,7 @@
     sections.forEach((item, i) => { item.hidden = i !== currentIndex; });
     const current = topics[currentIndex];
     document.querySelector('#topic-ribbon').textContent = current.title;
-    document.title = `${current.title} - 알수없음 도움말`;
+    document.title = `${current.title} - 알수없는 문서`;
     document.querySelectorAll('.tree-folder').forEach(folder => {
       if (folder.dataset.topic === current.id) folder.open = true;
     });
