@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="112" viewBox="0 0 96 112" role="img" aria-labelledby="title desc">
+  <title id="title">아노미르 이미지 교체용 자리표시자</title>
+  <desc id="desc">사진 모양의 아이콘과 영문 이름이 있는 회색 대체 도판.</desc>
+  <rect width="96" height="112" fill="#f1f2f3"/>
+  <g fill="none" stroke="#8a9198" stroke-width="1.3" stroke-linejoin="round">
+    <rect x="25" y="27" width="46" height="40" rx="2"/>
+    <circle cx="39" cy="39" r="4"/>
+    <path d="m26 60 13-13 10 10 9-9 12 12"/>
+  </g>
+  <text x="48" y="87" text-anchor="middle" font-family="sans-serif" font-size="9" letter-spacing=".8" fill="#54595d">ANOMIR</text>
+</svg>
