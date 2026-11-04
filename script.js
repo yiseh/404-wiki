@@ -196,6 +196,5 @@
     if (button.dataset.window === 'close') { shell.hidden = true; reopen.hidden = false; reopen.focus(); }
   }));
   reopen.addEventListener('click', () => { shell.hidden = false; reopen.hidden = true; shell.classList.remove('is-minimized'); document.querySelector('[data-window="minimize"]').setAttribute('aria-label', '창 최소화'); document.querySelector('[data-window="minimize"]').title = '최소화'; contentsToggle.focus(); });
-  if (location.pathname.endsWith('references.html')) document.querySelector('#window-topic').textContent = '참고 문헌';
   renderTopic();
 })();
